@@ -1,12 +1,14 @@
-//
-//  DiceModel.swift
-//  SwiftRoller
-//
-//  Created by Scott Warner on 12/3/15.
-//  Copyright © 2015 ScottBWar. All rights reserved.
-//
+//: Playground - noun: a place where people can play
 
-import Foundation
+import Cocoa
+
+var str = "Hello, playground"
+
+let a = 1
+
+let b = 2
+
+let c = a + b
 
 class Die {
     
@@ -26,3 +28,16 @@ class Die {
     }
     
 }
+
+
+let d12 = Die(sides:12)
+let d8  = Die(sides:8)
+
+d12.showsides()
+d8.showsides()
+
+
+
+
+d12.roll()
+d8.roll()

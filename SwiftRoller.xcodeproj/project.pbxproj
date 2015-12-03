@@ -14,6 +14,7 @@
 		BF4FB1561C10C2690034D445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4FB1541C10C2690034D445 /* LaunchScreen.storyboard */; };
 		BF4FB1611C10C2690034D445 /* SwiftRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB1601C10C2690034D445 /* SwiftRollerTests.swift */; };
 		BF4FB16C1C10C2690034D445 /* SwiftRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB16B1C10C2690034D445 /* SwiftRollerUITests.swift */; };
+		BF4FB17B1C10C2AF0034D445 /* DiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB17A1C10C2AF0034D445 /* DiceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		BF4FB1671C10C2690034D445 /* SwiftRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4FB16B1C10C2690034D445 /* SwiftRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRollerUITests.swift; sourceTree = "<group>"; };
 		BF4FB16D1C10C2690034D445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4FB1791C10C2950034D445 /* dicePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = dicePlayground.playground; sourceTree = "<group>"; };
+		BF4FB17A1C10C2AF0034D445 /* DiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		BF4FB13F1C10C2690034D445 = {
 			isa = PBXGroup;
 			children = (
+				BF4FB1791C10C2950034D445 /* dicePlayground.playground */,
 				BF4FB14A1C10C2690034D445 /* SwiftRoller */,
 				BF4FB15F1C10C2690034D445 /* SwiftRollerTests */,
 				BF4FB16A1C10C2690034D445 /* SwiftRollerUITests */,
@@ -103,6 +107,7 @@
 				BF4FB1521C10C2690034D445 /* Assets.xcassets */,
 				BF4FB1541C10C2690034D445 /* LaunchScreen.storyboard */,
 				BF4FB1571C10C2690034D445 /* Info.plist */,
+				BF4FB17A1C10C2AF0034D445 /* DiceModel.swift */,
 			);
 			path = SwiftRoller;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			files = (
 				BF4FB14E1C10C2690034D445 /* ViewController.swift in Sources */,
 				BF4FB14C1C10C2690034D445 /* AppDelegate.swift in Sources */,
+				BF4FB17B1C10C2AF0034D445 /* DiceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
